@@ -1,0 +1,25 @@
+{
+  "name": "legislator-letter",
+  "version": "1.0.0",
+  "description": "A program to send a letter to your legislator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajpawlicki/legislator-letter.git"
+  },
+  "author": "Aloysius Pawlicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajpawlicki/legislator-letter/issues"
+  },
+  "homepage": "https://github.com/ajpawlicki/legislator-letter#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dotenv": "^4.0.0",
+    "lob": "^5.0.0",
+    "readline-sync": "^1.4.7"
+  }
+}
