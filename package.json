@@ -4,7 +4,8 @@
   "description": "A program to send a letter to your legislator.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "axios": "^0.17.1",
     "dotenv": "^4.0.0",
     "lob": "^5.0.0",
+    "opn": "^5.2.0",
     "readline-sync": "^1.4.7"
   }
 }
